@@ -1,0 +1,29 @@
+.Input {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.Input > input {
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.Input > input:enabled {
+    border: 0;
+    outline: 0;
+}
+
+.Input > button {
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #00B2FF;
+}

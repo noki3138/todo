@@ -1,0 +1,51 @@
+.Notes {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.Note {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Note > img {
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.Note > img.active {
+    rotate: -90deg;
+}
+
+.Note > span {
+    font-size: 20px;
+}
+
+.Note-items {
+    position: absolute;
+    display: none;
+    transition: 0.3s;
+}
+
+.Note-items-check {
+    display: initial;
+    margin-left: 30px;
+}
+
+.Note-items-clock {
+    display: initial;
+    margin-left: 60px;
+}
+
+.Note-items-trash {
+    display: initial;
+    margin-left: 90px;
+}

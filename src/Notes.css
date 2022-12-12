@@ -28,24 +28,3 @@
 .Note > span {
     font-size: 20px;
 }
-
-.Note-items {
-    position: absolute;
-    display: none;
-    transition: 0.3s;
-}
-
-.Note-items-check {
-    display: initial;
-    margin-left: 30px;
-}
-
-.Note-items-clock {
-    display: initial;
-    margin-left: 60px;
-}
-
-.Note-items-trash {
-    display: initial;
-    margin-left: 90px;
-}

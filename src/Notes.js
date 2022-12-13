@@ -48,19 +48,19 @@ function Note({ index }) {
                 src={checkMark}
                 alt='check-mark'
                 onClick={onCheckClick}
-                className={isSelected ? 'Note-items' : ''}
+                className={!isSelected ? 'Note-items' : ''}
             />
             <img
                 src={clock}
                 alt='clock'
                 onClick={onClockClick}
-                className={isSelected ? 'Note-items' : ''}
+                className={!isSelected ? 'Note-items' : ''}
             />
             <img
                 src={trash}
                 alt='trash'
                 onClick={onTrashClick}
-                className={isSelected ? 'Note-items' : ''}
+                className={!isSelected ? 'Note-items' : ''}
             />
             <span>{text}</span>
         </div>
